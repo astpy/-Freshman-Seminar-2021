@@ -1,0 +1,11 @@
+- scikit learn
+https://scikit-learn.org/stable/index.html
+
+- Chainer(Tutorial)
+https://tutorials.chainer.org/ja/tutorial.html
+
+- リーダブルコード(Amazon)
+https://www.amazon.co.jp/リーダブルコード-―より良いコードを書くためのシンプルで実践的なテクニック-Theory-practice-Boswell/dp/4873115655
+
+- Web上でPython3を書いたり実行したりできるサイト
+https://replit.com/languages/python3
