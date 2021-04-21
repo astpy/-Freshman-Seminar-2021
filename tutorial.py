@@ -1,3 +1,6 @@
+# もとのサイトのリンク
+# https://colab.research.google.com/github/chainer/tutorials/blob/master/ja/02_Basics_of_Python.ipynb
+
 # 変数
 # 数字や文字を一時的に入れておける箱のようなものです。
 a = 1   # aという変数に1を格納
@@ -75,3 +78,46 @@ print(name.lower())   # string
 
 # 配列(List)
 # 変数が箱だったのに対して、配列はタンスのようなイメージです。
+'''
+イメージ
+配列 : タンス
+インデックス(添字) : 何番目の引き出しか。ただし最初は0番目。-がつくと後ろから何番目となる。
+例) list[1] -> 1番目の引き出し
+'''
+'''
+よく使う機能や関数
+:(コロン) : 1:3と書くと"1から3"という風に使える
+len() : 配列の長さ
+.append() : 配列の末尾に値を追加
+'''
+numbers = [1, 2, 3]    # 配列を宣言
+print(numbers[0])      # 1
+print(numbers[-1])     # 3
+numbers.append('rf')   # numbersの末尾に文字列rfを追加
+print(numbers)         # [1, 2, 3, 'rf']
+print(numbers[2:])     # [3, rf]
+print(numbers[:])      # [1, 2, 3, 'rf']
+
+# タプル(Tuple)
+# 配列の中身変更できないバージョン
+
+# 辞書(Dictionary)
+'''
+辞書型には、キー(Key)と値(Value)を並べて宣言します。
+キーを参照すると、値が返ってきます。
+'''
+scores = {'Math': 90, 'Science': 75, 'English': 80 }
+print(scores['Math'])    # 90
+print(scores['English']) # 80
+
+# if文、elif文、else文
+# 特定の条件でプログラムを分岐させたいときに用います。
+name = 'Masaki'
+if name == 'Tomoya':    # もしnameが'Tomoya'なら
+    print('Your name is Tomoya')
+elif name == 'kaito':   # もしnameが'Tomoya'ではなく'Kaito'なら
+    print('Your name is Kaito')
+else:                   # それ以外なら
+    print('I do not know your name.')
+
+# ここから下はこのプログラムの先頭にあるリンクのところを参照してください。
