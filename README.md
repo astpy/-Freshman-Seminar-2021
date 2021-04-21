@@ -1,1 +1,7 @@
-# -Freshman-Seminar-2021
+# Freshman-Seminar-2021
+
+
+ここでは、初回の講義で触れたチュートリアルのまとめや受けた質問についての回答をまとめたものをアップロードしています。
+
+- チュートリアルのまとめ -> tutorial.py
+- 質問のまとめ -> questions.txt
