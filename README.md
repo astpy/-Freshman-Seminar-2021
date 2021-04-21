@@ -7,3 +7,4 @@
 - questions.txt : 受けた質問と回答の一覧
 
 TwitterのDMを開放していますので、授業中の質問はもちろん、授業外でも気軽に質問してください。
+Twitter : @kuge_masa
