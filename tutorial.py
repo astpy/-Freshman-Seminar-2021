@@ -89,6 +89,7 @@ print(name.lower())   # string
 :(コロン) : 1:3と書くと"1から3"という風に使える
 len() : 配列の長さ
 .append() : 配列の末尾に値を追加
+.extend() : 配列の末尾に別の配列の値を追加
 '''
 numbers = [1, 2, 3]    # 配列を宣言
 print(numbers[0])      # 1
@@ -97,6 +98,8 @@ numbers.append('rf')   # numbersの末尾に文字列rfを追加
 print(numbers)         # [1, 2, 3, 'rf']
 print(numbers[2:])     # [3, rf]
 print(numbers[:])      # [1, 2, 3, 'rf']
+numbers.extend(['hoge', 123])    # 末尾に追加
+print(numbers)         # [1, 2, 3, 'rf', 'hoge', 123]
 
 # タプル(Tuple)
 # 配列の中身変更できないバージョン
